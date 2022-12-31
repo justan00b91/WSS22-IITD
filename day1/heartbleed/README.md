@@ -20,4 +20,4 @@ Overflowing the charaters leads to leak in the memory.
 
 #### Using 1st string:
 
-![Output_SS](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day1/heartbleed/screenshots/output.jpg)
+![Output_SS](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day1/heartbleed/screenshots/output.png)
