@@ -21,4 +21,4 @@ Inside the char string, the structure of the function is modified and the string
 
 Here is the output of code passing the `check-quine.sh` script.
 
-![Check-quine](https://raw.githubusercontent.com/samsepi0x0/IITD-WSS/main/day4/quine/Screenshots/Quine-check.png?token=GHSAT0AAAAAAB27OOBUQHBVJCNJDGTE6KZGY5PH72Q)
+![Check-quine](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day4/quine/Screenshots/Quine-check.png)
