@@ -13,12 +13,11 @@ The program has a global array declared which contains the strings we need to ca
 
 This is where the leak happens, when we ask the the `memcpy` function to return more characters from the memory rather than the length of the asked string.
 
-!(Code_SS)[https://raw.githubusercontent.com/samsepi0x0/IITD-WSS/main/day1/heartbleed/screenshots/Heartbleed.jpg?token=GHSAT0AAAAAAB27OOBV2JG5P5NJVUCQYRKSY5PCYSQ]
+![Code_SS](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day1/heartbleed/screenshots/Heartbleed.jpg)
 
 ### Output:
 Overflowing the charaters leads to leak in the memory.
 
 #### Using 1st string:
 
-!(Output_SS)[https://raw.githubusercontent.com/samsepi0x0/IITD-WSS/main/day1/heartbleed/screenshots/Output2.jpg?token=GHSAT0AAAAAAB27OOBV2JG5P5NJVUCQYRKSY5PCYSQ]
-!(Output_SS)[https://raw.githubusercontent.com/samsepi0x0/IITD-WSS/main/day1/heartbleed/screenshots/Output2.jpg?token=GHSAT0AAAAAAB27OOBV2JG5P5NJVUCQYRKSY5PCYSQ]
+![Output_SS](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day1/heartbleed/screenshots/output.jpg)
