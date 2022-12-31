@@ -27,26 +27,26 @@ This error occurs because the object name and string provided is null, thereby c
 - **"{"**
 This error occurs because of incorrect structure of the JSON file, when it as expecting an object, a single string was provided causing the program to crash.
 
-![Output_2](ttps://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_2.png)
+![Output_2](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_2.png)
 
 - **{"":5}**
 This error occurs because the input JSON had an empty string and an int object, causing segmentation fault.
 
-![Output_3](ttps://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_3.png)
+![Output_3](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_3.png)
 
 - **[]>**
 This is not a valid JSON data, thereby unable to parse the data. The program ended successfully, but since the execution was abruptly stopped, fuzzer recored it as a crash.
 
-![Output_4](ttps://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_4.png)
+![Output_4](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_4.png)
 
 - **["",",^"]**
 This causes an error as the name of the string is valid, and techically the second part is also correct, but it was unable to free the pointer of that node, thereby aborting the program.
 
-![Output_5](ttps://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_5.png)
+![Output_5](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_5.png)
 
 - **"\f"**
 The string entered was an escape sequence, thereby causing program crash.
 
-![Output_6](ttps://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_6.png)
+![Output_6](https://raw.githubusercontent.com/justan00b91/WSS22-IITD/main/day2/Screenshots/input_6.png)
 
 The fuzzer was able to identify more than 30 unique crashes, there are only a few of those.
